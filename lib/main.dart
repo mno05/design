@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterdesign/EtaPorject1/screens/Loacal/Messagerie.dart';
 import 'package:flutterdesign/EtaPorject1/screens/Loacal/Profile.dart';
+import 'package:flutterdesign/EtaPorject1/screens/Loacal/acceuil.dart';
 import 'package:flutterdesign/EtaPorject1/screens/auth/login.dart';
 import 'package:flutterdesign/Universi/login.dart';
 import 'package:get/get.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MessagerieScreen(),
+      home: const Accueil(),
     );
   }
 }
