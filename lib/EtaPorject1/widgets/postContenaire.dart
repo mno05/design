@@ -209,9 +209,9 @@ class _PostContainerState extends State<PostContainer> {
                               padding: EdgeInsets.only(
                                   top: h * 0.003, bottom: h * 0.003),
                               width: w,
-                              child: Video(
-                                path: widget.pathContenu,
-                              ),
+                              // child: Video(
+                              //   path: widget.pathContenu,
+                              // ),
                             ),
                           ],
                         )

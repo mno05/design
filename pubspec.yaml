@@ -40,8 +40,9 @@ dependencies:
   dropdown_button2: ^2.3.9
   font_awesome_flutter: ^10.7.0
   global_bottom_navigation_bar: ^0.0.8
-  video_player: ^2.8.3
-  chewie: ^1.7.5
+  dotted_border: ^2.1.0
+  # video_player: ^2.8.3
+  # chewie: ^1.7.5
 
 dev_dependencies:
   flutter_test:
@@ -69,6 +70,7 @@ flutter:
   assets:
     - assets/
     - assets/bottomNavigationIcons/
+    - assets/methodePayement/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

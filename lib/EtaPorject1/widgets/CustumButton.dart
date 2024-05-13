@@ -19,14 +19,17 @@ class CustumBtn extends StatelessWidget {
         ),
       ),
       style: ButtonStyle(
-          padding: MaterialStatePropertyAll(
-            EdgeInsets.only(left: 140, right: 140, top: 20, bottom: 20),
-          ),
-          elevation: MaterialStatePropertyAll(0.0),
-          backgroundColor: MaterialStatePropertyAll(defaultColor),
-          shape: MaterialStateProperty.all(RoundedRectangleBorder(
+        padding: MaterialStatePropertyAll(
+          EdgeInsets.only(left: 140, right: 140, top: 20, bottom: 20),
+        ),
+        elevation: MaterialStatePropertyAll(0.0),
+        backgroundColor: MaterialStatePropertyAll(defaultColor),
+        shape: MaterialStateProperty.all(
+          RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15.0),
-          ))),
+          ),
+        ),
+      ),
     );
   }
 }
